@@ -1,6 +1,8 @@
 [submodule "web"]
 	path = web
 	url = https://github.com/exitmate/web
+	branch = develop
 [submodule "ai"]
 	path = ai
 	url = https://github.com/exitmate/AI-Server.git
+	branch = develop
