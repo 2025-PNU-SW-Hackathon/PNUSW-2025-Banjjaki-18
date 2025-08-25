@@ -470,7 +470,7 @@ AI-Server: langchain 0.3.27, langchain-openapi 0.3.28, lanchain-pinecone 0.2.11,
 
 ---
 
-### 3.4. 디렉토리 구조 (개발자) → AI 돌리면 나옴 (제출 시 바로 작성)
+### 3.4. 디렉토리 구조 (개발자)
 
 ```
 Directory structure:
@@ -641,7 +641,7 @@ AI-Server
         └── query_builder.py # 사업장 정보에 기반한 프롬프트 쿼리 생성유틸
 ```
 
-### 4. 설치 및 사용 방법 (개발자) → AI 돌리면 나옴 (제출 시 바로 작성)
+### 4. 설치 및 사용 방법 (개발자)
 
 ### 4.1 AI 서버
 
