@@ -380,6 +380,9 @@ AI-Server: langchain 0.3.27, langchain-openapi 0.3.28, lanchain-pinecone 0.2.11,
 
 ### 3.1. 전체시스템 흐름도
 
+<img width="1282" height="746" alt="image" src="https://github.com/user-attachments/assets/7c0d9aa4-6e81-4ea3-9d7a-07c5a4b73144" />
+
+
 ### 3.2. 기능설명
 
 (영상)
@@ -470,7 +473,7 @@ AI-Server: langchain 0.3.27, langchain-openapi 0.3.28, lanchain-pinecone 0.2.11,
 
 ---
 
-### 3.4. 디렉토리 구조 (개발자)
+### 3.4. 디렉토리 구조
 
 ```
 Directory structure:
@@ -483,20 +486,20 @@ Directory structure:
     ├── tsconfig.json
     ├── .cursorignore
     ├── .prettierrc
-    ├── prisma/
+    ├── prisma/ (Prisma schema 디렉토리)
     │   └── schema.prisma
     ├── public/
     │   └── openapi.json
     ├── scripts/
     │   └── openapi.ts
     └── src/
-        ├── app/
+        ├── app/ (Next App Router 메인)
         │   ├── globals.css
         │   ├── layout.tsx
         │   ├── page.tsx
         │   ├── actions/
         │   │   └── schema.ts
-        │   ├── api/
+        │   ├── api/ (클라이언트 컴포넌트 엔드포인트)
         │   │   ├── schema.ts
         │   │   ├── auth/
         │   │   │   └── [...nextauth]/
@@ -525,7 +528,7 @@ Directory structure:
         │       ├── page.tsx
         │       └── detail/
         │           └── page.tsx
-        ├── components/
+        ├── components/ (클라이언트 컴포넌트)
         │   ├── ClientLayout.tsx
         │   ├── ProgramCard.tsx
         │   ├── UserCard.tsx
@@ -550,7 +553,7 @@ Directory structure:
         │       ├── provider.tsx
         │       ├── toaster.tsx
         │       └── tooltip.tsx
-        ├── features/
+        ├── features/ (도메인별 클라이언트 컴포넌트 및 기능 집합)
         │   ├── AvailableProgramCount.tsx
         │   ├── FilterSection.tsx
         │   ├── GridProgramCard.tsx
@@ -569,7 +572,7 @@ Directory structure:
         │       └── SignUpStepCards.tsx
         ├── store/
         │   └── user.ts
-        └── utils/
+        └── utils/ (유틸 메소드 모듈)
             ├── colors.ts
             ├── inputConstraints.ts
             ├── mocks.ts
@@ -641,7 +644,7 @@ AI-Server
         └── query_builder.py # 사업장 정보에 기반한 프롬프트 쿼리 생성유틸
 ```
 
-### 4. 설치 및 사용 방법 (개발자)
+### 4. 설치 및 사용 방법
 
 ### 4.1 AI 서버
 
