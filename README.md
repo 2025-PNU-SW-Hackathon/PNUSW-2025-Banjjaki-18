@@ -342,7 +342,7 @@ AI-Server: langchain 0.3.27, langchain-openapi 0.3.28, lanchain-pinecone 0.2.11,
 
 ### 3.1. 전체시스템 흐름도
 
-<img width="1282" height="746" alt="image" src="https://github.com/user-attachments/assets/7c0d9aa4-6e81-4ea3-9d7a-07c5a4b73144" />
+<img width="1532" height="900" alt="image" src="https://github.com/user-attachments/assets/1fae00b8-9323-4bae-9fe6-bab6a2e25f5e" />
 
 
 ### 3.2. 기능설명
