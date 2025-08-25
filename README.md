@@ -224,6 +224,8 @@ Exit Mate는 **최신 데이터 기술과 AI를 접목한 공공 혁신 플랫�
 - **예상 수익**
     - 3~5년 차에는 연 30억 원 규모 광고 매출 가능.
     - 광고가 단순 상업적 요소가 아니라, **사용자에게 실질적으로 필요한 연계 정보**가 되므로 신뢰성과 공익성을 유지.
+
+
 **(2) 데이터 레포트 판매 모델**
 <img width="1286" height="580" alt="image" src="https://github.com/user-attachments/assets/f33b9d77-b5ef-43f8-8eb8-6c0b4bd479e5" />
 
